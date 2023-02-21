@@ -1,4 +1,6 @@
 #include <iostream>
+#include <home1.h>
+#include <home2.h>
 
 int main()
 {
@@ -72,6 +74,8 @@ int main()
             }
         }
     }
+
+    std::cout << "home1(1) = " << home1(1) << "\nhome2(1) = " << home2(1) << std::endl;
 
     return 0;
 }

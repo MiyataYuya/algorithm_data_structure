@@ -1,0 +1,1 @@
+add_library(home2 home2.cpp)
